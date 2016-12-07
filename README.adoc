@@ -1,0 +1,4 @@
+= Asciidoctor Playground
+Doc Writer <nartawak@gmail.com>
+
+An introduction to http://asciidoc.org[AsciiDoc].
