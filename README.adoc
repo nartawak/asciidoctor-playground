@@ -27,5 +27,10 @@ I choose asciidoctor rather than asciidoc when i read this http://asciidoctor.or
 
 [source,shell]
 ----
+  # Sample theme
   bin/asciidoctor-pdf -a pdf-stylesdir=slides/themes -a pdf-style=sample slides/00_main.adoc -o formation-javascript.pdf
+
+  # Diginamic theme
+  bin/asciidoctor-pdf -a pdf-stylesdir=slides/themes -a pdf-style=diginamic -a pdf-fontsdir=slides/themes/fonts/diginamic slides/0_diginamic-slides.adoc -o formation-javascript.pdf
+
 ----

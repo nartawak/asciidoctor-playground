@@ -1,25 +1,5 @@
-= Asciidoctor generate PDF: JavaScript Training
-Nicolas Hodicq <nartawak@gmail.com>; CTO@Bewizyu
-v1.0, 2017-09-10: First pdf generate with asciidocotor-pdf.
-:description: This is a sample description
-:doctype: book
-// Settings:
-:experimental:
-:reproducible:
-:icons: font
-:listing-caption: Listing
-:sectnums:
-:toc:
-:toclevels: 3
-ifdef::backend-pdf[]
-:title-logo-image: image:themes/images/logo-black-180x180.png[pdfwidth=4.25in,align=left]
-:source-highlighter: rouge
-endif::[]
-
-[abstract]
-{description}
-
 include::01_introduction.adoc[]
 include::02_javascript.adoc[]
+include::03_contact.adoc[]
 
 <<<
