@@ -1,0 +1,58 @@
+compagny: Bewizyu
+
+header:
+  height: 2in
+  line_height: 1
+  recto:
+    right:
+      content: image:images/logo-black-180x180.png[width=100]
+  verso:
+      right:
+        content: $header_recto_right_content
+footer:
+  height: 0.75in
+  line_height: 1
+  recto:
+    right:
+      content: '*{page-number}*'
+    center:
+      content: $compagny / {section-title}
+  verso:
+      right:
+        content: $footer_recto_right_content
+      center:
+        content: $footer_recto_center_content
+
+page:
+  layout: landspace
+  margin: [$header_height, 1in, $footer_height, 1in]
+base:
+  font_color: #333333
+  font_family: Times-Roman
+  font_size: 12
+  line_height_length: 17
+  line_height: $base_line_height_length / $base_font_size
+vertical_spacing: $base_line_height_length
+heading:
+  font_color: #262626
+  font_size: 17
+  font_style: bold
+  line_height: 1.2
+  margin_bottom: $vertical_spacing
+link:
+  font_color: #002FA7
+outline_list:
+  indent: $base_font_size * 1.5
+
+code:
+  font_color: $base_font_color
+  font_family: $literal_font_family
+  font_size: ceil($base_font_size)
+  padding: $code_font_size
+  line_height: 1.25
+  # line_gap is an experimental property to control how a background color is applied to an inline block element
+  line_gap: 3.8
+  background_color: f5f5f5
+  border_color: cccccc
+  border_radius: 5
+  border_width: 0.75

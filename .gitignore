@@ -45,3 +45,6 @@ fabric.properties
 
 /.bundle/
 /vendor/
+/bin/
+node_modules
+*.pdf

@@ -1,0 +1,13 @@
+== Javascript
+
+=== isEmpty
+
+Insert source code from an external file.
+
+.util.js
+[source,javascript]
+----
+include::../packages/sources-javascript-sample/src/util.js[]
+----
+
+<<<

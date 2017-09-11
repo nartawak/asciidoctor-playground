@@ -1,0 +1,10 @@
+= Javascript training
+Nicolas Hodicq <nartawak@gmail.com>
+
+:source-highlighter: rouge
+:pdf-page-size: 6in x 9in
+
+include::01_plan.adoc[]
+include::02_javascript.adoc[]
+
+<<<
