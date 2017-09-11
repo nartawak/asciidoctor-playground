@@ -1,5 +1,4 @@
 = Asciidoctor Playground
-Doc Writer <nartawak@gmail.com>
 
 An introduction to http://asciidoc.org[AsciiDoc]. +
 
@@ -11,3 +10,27 @@ I choose asciidoctor rather than asciidoc when i read this http://asciidoctor.or
 Asciidoctor need to be installed. +
 You can refer to the http://asciidoctor.org/[official documentation]
 
+== Get Started
+
+- Ruby must be installed
+
+- Install bundler
+
+[source,shell]
+----
+  gem install bundler
+----
+
+- Install Ruby dependencies
+
+[source,shell]
+----
+  bundle install --binstubs
+----
+
+- generate the PDF
+
+[source,shell]
+----
+  bin/asciidoctor-pdf -a pdf-stylesdir=slides/themes -a pdf-style=sample slides/00_main.adoc -o formation-javascript.pdf
+----
